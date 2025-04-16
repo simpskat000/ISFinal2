@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Healthy Sleeping Habits</title>
+  <link rel="icon" href="assets/favicon.ico" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="css/scratch.css" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+    <div class="container px-4 px-lg-5">
+      <a id="top" class="navbar-brand" href="index.html">SaveSleep.co</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+        Menu <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto py-2">
+            <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="game.html">Game</a></li>
+            <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="scratch.html">Scratch</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="py-5 bg-success text-white text-center" style="height: 45vh; background: url('assets/img/sleepinggirl.jpg')">
+    <div class="container">
+      <h1 class="display-4">Healthy Sleeping Habits</h1>
+      <p class="lead">Simple ways to improve your sleep and energy levels</p>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <main class="container py-5">
+    <!-- Image Section -->
+    <section class="custom-section">
+      <h2>Sleep Environment</h2>
+      <p>Creating a calm sleep environment can help your body fall asleep faster and stay asleep longer.</p>
+      <img src="assets/img/sheepjumping.jpg" class="img-fluid rounded shadow" alt="sheepjumping"/>
+    </section>
+
+    <!-- Video Section -->
+    <section class="custom-section">
+      <h2>Tips for Better Sleep</h2>
+      <p>This video offers science-backed sleep hygiene habits to help improve your routine.</p>
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/gedoSfZvBgE" title="The Science of Sleep" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- Tableau Visualization -->
+    <section class="custom-section">
+      <div class="tableau-container">
+        <h2>Sleep Health and Lifestyle</h2>
+        <p>An interactive dashboard examining the relationship between sleep health and lifestyle factors.</p>
+        <div class='tableauPlaceholder' id='viz1744821977858' style='position: relative'><noscript><a href='#'><img alt='SleepingHabits ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sl&#47;SleepingHabits&#47;SleepingHabits&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='SleepingHabits&#47;SleepingHabits' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sl&#47;SleepingHabits&#47;SleepingHabits&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1744821977858');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='800px';vizElement.style.height='1000px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+      </div>    
+    </section>
+
+    <!-- Sleep Habit Tips -->
+    <section class="custom-section">
+      <h2>Top 5 Healthy Sleep Habits</h2>
+      <ul>
+        <li>Stick to a consistent sleep schedule—even on weekends</li>
+        <li>Limit screen time an hour before bed</li>
+          <ol>
+            <li>Create a cool, quiet, dark bedroom environment</li>
+            <li>Avoid caffeine late in the day</li>
+            <li>Get regular exercise, but not right before bed</li>
+        </ol>
+      </ul>
+      <p>Want more insights? <a href="https://sleepfoundation.org/sleep-hygiene" target="_blank">Visit the Sleep Foundation</a></p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-light py-4 mt-5 border-top text-center">
+    <div class="container">
+      <p class="mb-0">Made with ❤️ to promote better sleep | <a href="#top">Back to Top</a>
+    </div>
+  </footer>
+
+  <!-- Tableau JS -->
+  <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+  <script type="text/javascript">
+    var divElement = document.getElementById("vizContainer");
+    var vizElement = divElement.getElementsByTagName("object")[0];
+    vizElement.style.display = "block";
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
